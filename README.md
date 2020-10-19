@@ -3,10 +3,12 @@ quodlibetLCDScreen
 
 This is a little plugin for Quod Libet audio player that allow you to display current song Artist/Title on an external USB LCD Screen.
 
+![screen1](lcd.jpg)
+
 Hardware compatibility
 ----------------------
 
-I used this screen :  https://www.banggood.com/1602-RGB-LCD-Display-With-USB-Port-For-Raspberry-Pi-3B-2B-B-Windows-Linux-p-1079617.html?rmmds=myorder&cur_warehouse=CN
+I used this screen :  https://www.banggood.com/1602-RGB-LCD-Display-With-USB-Port-For-Raspberry-Pi-3B-2B-B-Windows-Linux-p-1079617.html
 
 Dependencies
 ------------
@@ -43,13 +45,20 @@ SUBSYSTEM=="usb", ENV{DEVTYPE}=="usb_device", ATTR{idVendor}=="0403", ATTR{idPro
 
 - Then reboot computer or refresh udev : `sudo udevadm control --reload-rules`
 
+Screenshots
+-----------
+
+![screen1](screen_1.jpeg)
+
+![screen1](screen_2.jpeg)
+
 Credits
 -------
 
 This script has been written by Francois B. (Makotosan)
 
 * Email : francois@makotonoblog.be
-* Website : https://makotonoblog.be/
+* Website : https://makotonoblog.be/quodlibetLCDScreen
 
 Licence
 -------
