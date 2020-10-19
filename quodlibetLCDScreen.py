@@ -2,7 +2,8 @@
 quodlibetLCDScreen
     author : Francois B. (Makotosan/Shakasan)
     licence : GPLv3
-    website : https://makotonoblog.be/quodlibetlcdscreen
+    website : https://makotonoblog.be
+    repository : https://github.com/shakasan/quodlibetLCDScreen
 """
 
 import os
