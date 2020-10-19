@@ -18,19 +18,10 @@ Dependencies
 - getpass
 - GTK libs
 
-Manual install
---------------
-
-On Ubuntu :
-
-- Create a directory named `quodlibetLCDScreen` in `~/.quodlibet/plugins`
-- Copy `quodlibetLCDScreen.py` in this directory
-- Open Quodlibet and activate the plugin, you should see a `Hello <your_username>` on the screen
-
 Udev rules
 ----------
 
-- On Ubuntu, add this rules in `/etc/udev/rules.d/51-lcd2usb.rules`
+- On Ubuntu, add this rule in `/etc/udev/rules.d/51-lcd2usb.rules`
 
 ```shell scriptll
 # Find your device information with command "lsusb"
@@ -45,6 +36,15 @@ SUBSYSTEM=="usb", ENV{DEVTYPE}=="usb_device", ATTR{idVendor}=="0403", ATTR{idPro
 
 - Then reboot computer or refresh udev : `sudo udevadm control --reload-rules`
 
+Manual install
+--------------
+
+On Ubuntu :
+
+- Create a directory named `quodlibetLCDScreen` in `~/.quodlibet/plugins`
+- Copy `quodlibetLCDScreen.py` in this directory
+- Open Quodlibet and activate the plugin, you should see a `Hello <your_username>` on the screen
+
 Screenshots
 -----------
 
@@ -58,7 +58,7 @@ Credits
 This script has been written by Francois B. (Makotosan)
 
 * Email : francois@makotonoblog.be
-* Website : https://makotonoblog.be
+* Website : https://makotonoblog.be/quodlibetlcdscreen
 
 Licence
 -------

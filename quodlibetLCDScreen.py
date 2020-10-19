@@ -2,7 +2,7 @@
 quodlibetLCDScreen
     author : Francois B. (Makotosan/Shakasan)
     licence : GPLv3
-    website : https://makotonoblog.be
+    website : https://makotonoblog.be/quodlibetlcdscreen
     repository : https://github.com/shakasan/quodlibetLCDScreen
 """
 
@@ -105,7 +105,7 @@ class MyPlugin(EventPlugin):
         gridAbout.attach(lblval_plugin_author, 1, 2, 1, 1)
         # Plugin website
         lbl_plugin_website = labelTitle('Website : ')
-        lblval_plugin_website = labelMarkup('<a href="https://makotonoblog.be/quodlibetLCDScreen">https://makotonoblog.be/quodlibetLCDScreen</a>')
+        lblval_plugin_website = labelMarkup('<a href="https://makotonoblog.be/quodlibetLCDScreen">https://makotonoblog.be/quodlibetlcdscreen</a>')
         gridAbout.attach(lbl_plugin_website, 0, 3, 1, 1)
         gridAbout.attach(lblval_plugin_website, 1, 3, 1, 1)
         # Plugin repository
