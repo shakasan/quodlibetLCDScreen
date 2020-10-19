@@ -58,7 +58,7 @@ Credits
 This script has been written by Francois B. (Makotosan)
 
 * Email : francois@makotonoblog.be
-* Website : https://makotonoblog.be/quodlibetLCDScreen
+* Website : https://makotonoblog.be/quodlibetlcdscreen
 
 Licence
 -------
