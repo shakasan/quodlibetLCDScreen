@@ -1,0 +1,9 @@
+__pycache__
+.idea
+*.bak
+backup/*
+deb/*
+.remote-sync.json
+wpfind.log
+arch/*
+deploy.sh
