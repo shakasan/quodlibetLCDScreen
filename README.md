@@ -1,6 +1,6 @@
 # quodlibetLCDScreen
 
-This is a little plugin for Quod Libet audio player that allow you to display current song Artist/Title on an external USB LCD Screen.
+This is a little plugin for QuodLibet audio player that allow you to display current song Artist/Title on an external USB LCD Screen.
 
 ![screen1](lcd.jpg)
 
