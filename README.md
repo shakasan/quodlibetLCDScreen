@@ -56,3 +56,4 @@ This script has been written by Francois B. (Makotosan)
 ## Licence
 
 - The script/plugin is licensed under the terms of the GPLv3
+
